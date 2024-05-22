@@ -1,0 +1,82 @@
+
+.background22{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../Login/image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  filter: blur(5px);
+}
+  .attendance-box {
+    margin-left: 15%;
+    width: 70%;
+    margin-top: 2rem;
+    border: 4px solid #00308F;
+    border-radius: 1rem;
+  } 
+    .attendance-header {
+    color: black;
+    margin-left: 2rem;
+    /* text-decoration: underline; */
+  }
+  
+  .select-employee {
+    color: black;
+    margin-left: 2rem;
+  }
+  
+  .select-dropdown {
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: white; /* Modify background color as needed */
+    color: black;
+  }
+  
+  .selected-user-box {
+    margin-left: 2rem;
+    border: 5px solid black;
+    margin-top: 1rem;
+    width: 35rem;
+    background-color: white;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+  }
+  /* styles.css */
+
+.file-btn {
+  border: 2px solid black;
+  color: black;
+  background-color: white;
+  margin-left: 2.5rem;
+  /* padding: 1%; */
+}
+.file-btn :hover{
+  background-color:green;
+  color:white;
+}
+
+
+
+  
+  .selected-user-name {
+    margin-left: 2.5rem;
+    text-decoration: underline;
+  }
+  
+  .user-info {
+    margin-left: 2.5rem;
+  }
+  
+  .download-button {
+    border: 2px solid black;
+    color: black;
+    margin-left: 11.7rem;
+    background-color: white;
+    height: 2rem;
+    width: 19rem;
+  }
+  

@@ -1,0 +1,21 @@
+.attendance-header{
+  display: flex;
+}
+.profile{
+    background-color: rgb(255, 255, 255);
+}
+.card-text{
+    color: black;
+}
+.card {
+    border: 2px solid rgb(6, 31, 222);
+    transition: transform 0.3s ease;
+    /* width: 22rem; */
+  }
+  .card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  .headertext{
+    color: white;
+  }

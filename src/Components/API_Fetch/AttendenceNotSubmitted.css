@@ -1,0 +1,39 @@
+
+.loaderback{
+    height: 6rem;
+}
+.Loader {
+    margin-top: 15px;
+    width: 70px;
+    height: 70px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 15px solid lightblue;
+    border-right-color: rgb(0, 0, 0);
+    animation: l2 1s infinite linear;
+    position: absolute;
+    left: 50%;
+  }
+  @keyframes l2 {to{transform: rotate(1turn)}}
+  .attendance-header{
+    text-align: center;
+    font-weight: bold;
+  }
+  .attendance-table-container {
+    margin: 2rem;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    color: white;
+
+  }
+  .attendance-table{
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+  }
+  .sr{
+    font-weight: bold;
+    
+  }
+  
+  
